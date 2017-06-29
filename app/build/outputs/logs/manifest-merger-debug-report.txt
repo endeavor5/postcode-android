@@ -1,0 +1,70 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:7:5-21:19
+MERGED from [com.android.support:design:23.2.0] /Users/ndvor/.android/build-cache/2b07aec7c1eb8ec186fad1935f9c70bc2d084851/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/ndvor/.android/build-cache/fa17f1de5ff2ba0b499fdb3fce15a99dad410aac/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/ndvor/.android/build-cache/52daf34622f7bfb73ae57c3b6325f1408bf2a92c/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/ndvor/.android/build-cache/bd05f833b9c08810fcce82564ce6e26927fabf57/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/ndvor/.android/build-cache/428a30c9b3d3c3dbb960f20b3347d38dbfbf2123/output/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:11:9-35
+	android:allowBackup
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:12:9-40
+activity#com.daddyface.daumpostcodeexample.MainActivity
+ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:13:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:17:27-74
+activity#com.daddyface.daumpostcodeexample.WebViewActivity
+ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:20:9-62
+	android:name
+		ADDED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml:20:19-50
+uses-sdk
+INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.2.0] /Users/ndvor/.android/build-cache/2b07aec7c1eb8ec186fad1935f9c70bc2d084851/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.0] /Users/ndvor/.android/build-cache/738b93157b299a3f295c43536586e40a2f695c4b/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/ndvor/.android/build-cache/fa17f1de5ff2ba0b499fdb3fce15a99dad410aac/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/ndvor/.android/build-cache/52daf34622f7bfb73ae57c3b6325f1408bf2a92c/output/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/ndvor/.android/build-cache/bd05f833b9c08810fcce82564ce6e26927fabf57/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/ndvor/.android/build-cache/428a30c9b3d3c3dbb960f20b3347d38dbfbf2123/output/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.1] /Users/ndvor/.android/build-cache/fa17f1de5ff2ba0b499fdb3fce15a99dad410aac/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ndvor/Desktop/postcode-android/app/src/main/AndroidManifest.xml
